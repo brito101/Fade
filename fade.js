@@ -24,13 +24,13 @@ class Fade {
           this.fadeInd(el);
         }
       }
-    })
+    });
   }
 
   init() {
     this.items.forEach((el) => {
       el.style.opacity = 0;
-    })
+    });
     this.checkFades();
   }
 }
