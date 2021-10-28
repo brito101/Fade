@@ -9,8 +9,8 @@ Selecting DOM elements with the "fadeInScroll" class (can be any tag) and import
 -- Selecionando elementos do DOM com a classe "fadeInScrool" (pode ser qualquer tag) e importando a classe (import Fade from...) ou no mesmo arquivo:
 
 ```
-const fadeInScrool = document.querySelectorAll(".fadeInScrool");
-const fade = new Fade(fadeInScrool);
+const fadeInScroll = document.querySelectorAll(".fadeInScroll");
+const fade = new Fade(fadeInScroll);
 fade.init();
 ```
 
