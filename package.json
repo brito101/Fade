@@ -1,0 +1,17 @@
+{
+  "name": "brito101-fade",
+  "description": "Class for applying the fade effect in DOM sections",
+  "homepage": "https://www.rodrigobrito.dev.br",
+  "version": "v1.0.0",
+  "maintainers":     
+  {
+      "name": "Rodrigo Carvalho de Brito",
+      "email": "contato@rodrigobrito.dev.br",
+      "web": "https://www.rodrigobrito.dev.br"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brito101/Fade"
+  },
+  "license": "MIT"
+}
