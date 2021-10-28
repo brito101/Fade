@@ -5,8 +5,8 @@ Class for applying the "fade" effect in DOM sections, in a simple way, used on t
 
 # Example of use
 
-Selecting DOM elements with the "fadeInScroll" class (can be any tag) and importing the class or in the same file:</br>
--- Selecionando elementos do DOM com a classe "fadeInScrool" (pode ser qualquer tag) e importando a classe ou no mesmo arquivo:
+Selecting DOM elements with the "fadeInScroll" class (can be any tag) and importing the class (import Fade from...) or in the same file:</br>
+-- Selecionando elementos do DOM com a classe "fadeInScrool" (pode ser qualquer tag) e importando a classe (import Fade from...) ou no mesmo arquivo:
 
 ```
 const fadeInScrool = document.querySelectorAll(".fadeInScrool");
