@@ -4,7 +4,7 @@ class Fade {
     this.delay = delay || 50;
   }
 
-  fadeInd(el) {
+  fadeIn(el) {
     let opactiy = 0;
     const timer = setInterval(() => {
       if (opactiy < 1) {
@@ -21,7 +21,7 @@ class Fade {
       const wHeight = parseInt(0.75 * window.innerHeight, 10);
       if (wHeight >= el.getBoundingClientRect().top) {
         if (el.style.opacity === "0") {
-          this.fadeInd(el);
+          this.fadeIn(el);
         }
       }
     });
