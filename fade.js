@@ -30,9 +30,9 @@ class Fade {
    init() {
     if (this.items.length) {
       this.items.forEach((el) => {
-        el.style.opacity = 0
-      })
-      this.checkFades()
+        el.style.opacity = 0;
+      });
+      this.checkFades();
     }
   }
 }
