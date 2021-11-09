@@ -1,15 +1,15 @@
 class Fade {
   constructor(items, delay) {
     this.items = items;
-    this.delay = delay || 50;
+    this.delay = delay || 25;
   }
 
   fadeIn(el) {
-    let opactiy = 0;
+    let opacity = 0;
     const timer = setInterval(() => {
-      if (opactiy < 1) {
-        el.style.opacity = opactiy;
-        opactiy += 0.1;
+      if (opacity < 1) {
+        el.style.opacity = opacity;
+        opacity += 0.1;
       } else {
         clearInterval(timer);
       }
@@ -24,15 +24,16 @@ class Fade {
           this.fadeIn(el);
         }
       }
-    });
+    })
   }
 
-   init() {
+  init() {
     if (this.items.length) {
       this.items.forEach((el) => {
         el.style.opacity = 0;
-      });
+      })
       this.checkFades();
     }
+    return this;
   }
 }
