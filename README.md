@@ -1,7 +1,7 @@
 # Fade
 
 - Class for applying the "fade" effect in DOM sections, in a simple way, used on the website https://www.rodrigobrito.dev.br.</br>
--Classe para aplicação do efeito "fade" em seções do DOM, de forma simples, utilizada no site https://www.rodrigobrito.dev.br.
+- Classe para aplicação do efeito "fade" em seções do DOM, de forma simples, utilizada no site https://www.rodrigobrito.dev.br.
 
 # Example of use
 
